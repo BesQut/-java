@@ -1,8 +1,8 @@
-package DZ;
-import DZ.Seminar_1.DZ_1_1;
-import DZ.Seminar_1.DZ_1_2;
-
+package DZ.DZ1;
 import java.util.Scanner;
+
+import DZ.DZ1.Seminar_1.DZ_1_1;
+import DZ.DZ1.Seminar_1.DZ_1_2;
 
 public class Main1 {
     private static Scanner in = new Scanner(System.in);

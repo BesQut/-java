@@ -1,4 +1,4 @@
-package DZ.Seminar_1;
+package DZ.DZ1.Seminar_1;
 
 public class DZ_1_1 {
     public static int runNow(int nums) {
