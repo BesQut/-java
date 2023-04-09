@@ -3,7 +3,6 @@ package DZ.DZ2.sem_2;
 public class Divide {
     public static StringBuilder[] getStringBuilderArray(String words) {
 
-       // String json = "[{\"фамилия\":\"Иванов\",\"оценка\":\"5\",\"предмет\":\"Математика\"}, {\"фамилия\":\"Петрова\",\"оценка\":\"4\",\"предмет\":\"Информатика\"}, {\"фамилия\":\"Краснов\",\"оценка$\":\"5\",\"предмет\":\"Физика\"}]";
         System.out.println(words);
         String[] word = words.split("},");
         String[][] people = new String[word.length][];
