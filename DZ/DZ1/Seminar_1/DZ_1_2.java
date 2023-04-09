@@ -10,7 +10,6 @@ public class DZ_1_2 {
                     break;
                 }
             }
-
             if(b){
                 System.out.println(i);
             }
