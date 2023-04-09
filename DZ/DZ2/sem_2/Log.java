@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 
 public class Log {
     static {
-        try (FileInputStream in = new FileInputStream("Log.config")) { //полный путь до файла с конфигами
+        try (FileInputStream in = new FileInputStream("Log.config")) {
             LogManager.getLogManager().readConfiguration(in);
         } catch (Exception a) {
             a.printStackTrace();
