@@ -1,13 +1,11 @@
 package DZ.DZ2;
 
-import java.util.Scanner;
 import java.util.Arrays;
 
 import DZ.DZ2.sem_2.Divide;
 import DZ.DZ2.sem_2.Sort;
 
 public class Main2 {
-    private Scanner in = new Scanner(System.in);
     public static void main(String args[]) {
         int[] Array = {8, 8, 7, 3, 5, 22, 9, 1, 26, 15};
         Sort.getSort(Array);
